@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'iconFonts';
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  src: local(''),
+       url('../Fonts/iconFonts/iconFonts.eot?mr5asq'),
+       url('../Fonts/iconFonts/iconFonts.eot?mr5asq#iefix') format('embedded-opentype'),
+       url('../Fonts/iconFonts/iconFonts.ttf?mr5asq') format('truetype'),
+       url('../Fonts/iconFonts/iconFonts.woff?mr5asq') format('woff'),
+       url('../Fonts/iconFonts/iconFonts.svg?mr5asq#iconFonts') format('svg');
+
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconFonts' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: #FA9556;
+  font-size: 15px;  
+  line-height: 1;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Clock:before {
+  padding-right: 9px;
+  content: "\e900";
+}
+.icon-Map-marker:before {
+  padding-right: 5px;
+  content: "\e901";
+}
+.icon-People:before {
+  padding-right: 8px;
+  content: "\e902";
+}
+.icon-Star:before {
+  padding-right: 6px;
+  content: "\e903";
+}

@@ -1,0 +1,354 @@
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+header {
+    display: block;
+}
+
+.breadth {
+	max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    display: flex;
+    Justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    align-items: center
+}
+
+.menu nav {
+    display: flex;
+    Justify-content: space-between;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.menu nav ul{
+    display: flex;
+    Justify-content: space-between;
+    align-items: center
+}
+
+.menu nav ul li a{
+    padding-left: 18px;
+    padding-right: 18px;
+    color: #1F3347;
+    text-decoration: none;
+}
+
+.menu nav ul li a:hover{
+    text-decoration: underline 3px solid #6347F9;
+}
+
+.menu nav button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.Btn_Login {
+    padding-left: 29px;
+    padding-right: 29px;
+    color: #1F3347;
+    background: none;
+    border: none;
+}
+
+.Btn_Login:hover {
+    padding-left: 29px;
+    padding-right: 29px;
+    background:  #6347F9;
+    border-radius: 4px;
+    color: white;
+}
+
+.Btn_Login:hover + .Btn_SignUP {
+    background: none;
+    color: #1F3347;
+}
+
+.Btn_SignUP {
+    padding-left: 50px;
+    padding-right: 50px;
+    background:  #6347F9;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+figure {
+    position: relative;
+    background-color: #F4F6FA;
+    height: 310px;
+}
+
+figure img {
+    width: 1677px;
+    position: absolute;
+    opacity: 0.8;
+}
+
+#Hotel {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(424px, 1fr));/*ширина колонки*/
+    gap: 24px;/*Отступы между колонками и строками*/
+    margin-top: 120px;
+}
+
+.foto_Hotel{
+    width: 424px;
+    height: 350px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.specification_Hotel {
+    display: block;
+    width: 424px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px #E4E2EE;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.specification_width379 {
+    width: 379px;
+    margin: 0 auto;
+}
+
+.specification_width379 > div{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+
+.specification_width379 div > p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 83%;
+    text-align: center;
+    color: #1F3347;
+}
+
+.specification_width379 ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 19px;
+}
+
+.specification_width379 ul > li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 75%;
+    color: #9DA1B4;
+}
+
+.map{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.map p a{
+    font-size: 16px;
+    line-height: 81%;
+    text-decoration: none;
+    color: #9DA1B4;
+}
+
+.map p a:hover{
+    color:#1F3347;
+}
+
+.map button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 112%;
+
+    color: #FFFFFF;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 21px;
+    padding-left: 20px;
+
+    background: #6347F9;
+    border-radius: 4px;
+    border: none;
+}
+
+.map button:hover{
+    background:#1F3347;
+}
+
+.nav {
+    display: flex;
+    Justify-content: center;
+}
+
+.nav img {
+    Justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 124px;
+}
+
+.SignUp_Newslette{
+    background: #D9D9D9;
+
+}
+
+.SignUp_Newslette div form {
+    padding-top: 160px;
+    text-align: center;
+}
+
+.SignUp_Newslette div form label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+
+    text-transform: capitalize;
+
+    color: #22283C;
+}
+
+
+.SignUp_Newslette div form div{
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    padding-bottom: 160px;
+}
+
+.SignUp_Newslette button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 94%;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #6347F9;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+
+    padding-top: 21px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 24px;
+}
+
+.SignUp_Newslette input {
+    width: 544px;
+    background: #22283C;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 94%;
+    
+    text-align:left;
+    color: #FFFFFF;
+
+    padding-top: 21px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 24px;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 600px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.modalDialog div > iframe  {
+    width: 600px;
+    height: 450px;
+    border:0;
+}
+
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+
+footer {
+    display: block;
+}
+
+footer p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding-top: 29px;
+    padding-bottom: 28px;
+
+    background: #1A2531;
+
+}
